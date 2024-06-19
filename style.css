@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size:60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+    color: white;
+    font-size:30px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+}
+button{
+    color:black;
+    font-size:15px;
+    font-style: normal;
+    background-color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#clear{
+    color:white;
+    background-color: black;
+    border: 1px solid white;
+    width:150px;
+    height:30px; 
+}
+#Decrement{
+    width:150px;
+    height:30px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+#Increment{
+    width:150px;
+    height:30px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+#error{
+    color:red;
+    padding-bottom: 50px;
+    display: none;
+    font-family: "Lato",sans-serif;
+}
+button:disabled{
+    background-color: rgb(13, 217, 129);
+    cursor: not-allowed;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1>Counter using HTML</h1>
+    <p>Your current count is :<span id="count">1</span></p>
+    <div id="error">Error : Cannot go below 0</div>
+    <div>
+        <button type="button" id="Decrement" onclick="decrease()">Decrement</button>
+        <button type="button" value="Increment" id="Increment" onclick="increase()">Increment</button>
+        <button type="button" value="Clear" id="clear" onclick="clearing()">Clear</button>
+    </div>
+    <script src="./script.js"> </script>
+</body>
+</html>
